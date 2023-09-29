@@ -5,6 +5,7 @@
     $name_of_the_day = date('l', strtotime($fecha));
     echo $name_of_the_day;
     echo "Prueba Saul";
+    echo "Segunda prueba saul";
 
     $clases = [
         "abrev" => ["DEW","DSW","DPL","EMR","DOR"],
