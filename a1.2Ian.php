@@ -4,6 +4,8 @@
     $hora = $_REQUEST['hora'];
     $name_of_the_day = date('l', strtotime($fecha));
     echo $name_of_the_day;
+    echo "Prueba Saul";
+    echo "Segunda prueba saul";
     echo "hola ian";
     echo "da fallo";
 
