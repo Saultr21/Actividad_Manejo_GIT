@@ -4,6 +4,8 @@
     $hora = $_REQUEST['hora'];
     $name_of_the_day = date('l', strtotime($fecha));
     echo $name_of_the_day;
+    echo "hola ian";
+    echo "da fallo";
 
     $clases = [
         "abrev" => ["DEW","DSW","DPL","EMR","DOR"],
